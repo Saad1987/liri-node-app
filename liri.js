@@ -94,10 +94,10 @@ var y=	Math.round(Math.random() * dataArr.length);
 		liri.spotify(query);
 	
 	} else if(command === "my-tweets") {
-
+		logIT(command,"No query needed");
 		liri.tweet();
 	} else  if (command === "movie-this") {
-
+		logIT(command,query);
 		liri.movieFinder(query);
 	} else {
 

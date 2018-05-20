@@ -1,34 +1,7 @@
-﻿Command   :spotify-this-song
-Query     :"To All Of You"
+Command   :movie-this
+Query     :"XXX"
 
 Data:
-
-Artist(s):    Syd Matters
-Song:         To All of You
-Preview Link: https://p.scdn.co/mp3-preview/f35a8593cbab06fb5fc2a6afb6b24d21cf109496?cid=ad7ae01e3a8f4888965ed346ebde12b1
-Album:        Someday We Will Foresee Obstacles
-------------------------------------------------------------
-
-Title of the movie:         The Avengers
-Year the movie came out:    2012
-IMDB Rating of the movie:   8.1
-Country produced:           USA
-Language of the movie:      English, Russian, Hindi
-Plot of the movie:          Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
-Actors in the movie:        Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth
-Rotten Tomatoes Rating :    No Tomatoes Rating !
-------------------------------------------------------------
-
-Command   :spotify-this-song
-Query     :"castle of glass"
-
-Data:
-
-Artist(s):    Linkin Park
-Song:         CASTLE OF GLASS
-Preview Link: https://p.scdn.co/mp3-preview/48fcbc7609d8fcfcd10ebd3d262ef36d8cbfa07c?cid=ad7ae01e3a8f4888965ed346ebde12b1
-Album:        LIVING THINGS
-------------------------------------------------------------
 
 Title of the movie:         xXx
 Year the movie came out:    2002
@@ -40,6 +13,41 @@ Actors in the movie:        Vin Diesel, Asia Argento, Marton Csokas, Samuel L. J
 Rotten Tomatoes Rating :    No Tomatoes Rating !
 ------------------------------------------------------------
 
+Command   :movie-this
+Query     :"XXX"
+
+Data:
+
+Title of the movie:         xXx
+Year the movie came out:    2002
+IMDB Rating of the movie:   5.9
+Country produced:           USA
+Language of the movie:      English, German, Spanish, Russian, Czech
+Plot of the movie:          An extreme sports athlete, Xander Cage, is recruited by the government on a special mission.
+Actors in the movie:        Vin Diesel, Asia Argento, Marton Csokas, Samuel L. Jackson
+Rotten Tomatoes Rating :    No Tomatoes Rating !
+------------------------------------------------------------
+
+Command   :movie-this
+Query     :"The Matrix"
+
+Data:
+
+Title of the movie:         The Matrix
+Year the movie came out:    1999
+IMDB Rating of the movie:   8.7
+Country produced:           USA
+Language of the movie:      English
+Plot of the movie:          A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors in the movie:        Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+Rotten Tomatoes Rating :    No Tomatoes Rating !
+------------------------------------------------------------
+
+Command   :my-tweets
+Query     :No query needed
+
+Data:
+
 
 ------------------------------------------------------------
 ( #Tweet N#1 ), Created:  Thu May 17 18:35:03 +0000 2018
@@ -50,18 +58,6 @@ Tweet : ICYMI @menepie discusses the benefits of being a part of the #nodejs Fou
 ------------------------------------------------------------
 ( #Tweet N#3 ), Created:  Wed May 16 13:00:05 +0000 2018
 Tweet : .@AppDeveloperMag talked with @jasnell around the progress and challenges of adding http/2 to #nodejs. Check out th… https://t.co/oMyzmXDe4w
-------------------------------------------------------------
-
-
-------------------------------------------------------------
-( #Tweet N#4 ), Created:  Wed May 16 12:54:45 +0000 2018
-Tweet : RT @JoyeeCheung: I've been asked about this quite a few times lately, so in case you want to know how to become a @nodejs core collaborator…
-------------------------------------------------------------
-
-
-------------------------------------------------------------
-( #Tweet N#2 ), Created:  Wed May 16 16:01:35 +0000 2018
-Tweet : ICYMI: Node.js Foundation Executive Director @mrhinkle provides updates from the Node.js Foundation team, the most… https://t.co/IbwxPpx3m3
 ------------------------------------------------------------
 
 
@@ -78,6 +74,12 @@ Come packed with a massive update to both n-api and http…
 
 
 ------------------------------------------------------------
+( #Tweet N#4 ), Created:  Wed May 16 12:54:45 +0000 2018
+Tweet : RT @JoyeeCheung: I've been asked about this quite a few times lately, so in case you want to know how to become a @nodejs core collaborator…
+------------------------------------------------------------
+
+
+------------------------------------------------------------
 ( #Tweet N#7 ), Created:  Tue May 15 16:02:02 +0000 2018
 Tweet : Is embedding #nodejs important to you? There is an effort underway to help define and document embedded use cases.… https://t.co/lRX9fnVx6H
 ------------------------------------------------------------
@@ -90,10 +92,16 @@ Tweet : RT @bitandbang: There's not going to be a @nodejs i18n meeting livestrea
 
 
 ------------------------------------------------------------
-( #Tweet N#10 ), Created:  Mon May 14 13:16:44 +0000 2018
-Tweet : RT @bitandbang: Just a heads up: if you write articles on @nodejs, we’d love to officially share them on the Node.js Collection:
+( #Tweet N#2 ), Created:  Wed May 16 16:01:35 +0000 2018
+Tweet : ICYMI: Node.js Foundation Executive Director @mrhinkle provides updates from the Node.js Foundation team, the most… https://t.co/IbwxPpx3m3
+------------------------------------------------------------
 
-https://t…
+
+------------------------------------------------------------
+( #Tweet N#9 ), Created:  Mon May 14 16:00:12 +0000 2018
+Tweet : #nodeappshowcase highlight for this week: @EuphoricAdv (https://t.co/4UtDGy8QF2)
+
+Euphoric Adventures is building a… https://t.co/uwT769e87G
 ------------------------------------------------------------
 
 
@@ -104,20 +112,22 @@ Tweet : 🎉🎉🎉 https://t.co/zOWCwqaLYN
 
 
 ------------------------------------------------------------
+( #Tweet N#10 ), Created:  Mon May 14 13:16:44 +0000 2018
+Tweet : RT @bitandbang: Just a heads up: if you write articles on @nodejs, we’d love to officially share them on the Node.js Collection:
+
+https://t…
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#8 ), Created:  Mon May 14 18:34:55 +0000 2018
+Tweet : Congrats @mhdawson1 🎉 https://t.co/pqyUMv3zU7
+------------------------------------------------------------
+
+
+------------------------------------------------------------
 ( #Tweet N#12 ), Created:  Sat May 12 01:00:14 +0000 2018
 Tweet : .@Mybridge provides the top ten articles about #nodejs on Medium every month. Here's the top 10 for April: https://t.co/16GOJwMkX6
-------------------------------------------------------------
-
-
-------------------------------------------------------------
-( #Tweet N#13 ), Created:  Fri May 11 23:40:14 +0000 2018
-Tweet : RT @trott: PSA: The wiki in the @nodejs repository on @github has been disabled. An archive is at https://t.co/OQWgmiwOR9 in case anyone ne…
-------------------------------------------------------------
-
-
-------------------------------------------------------------
-( #Tweet N#14 ), Created:  Fri May 11 18:00:31 +0000 2018
-Tweet : If embedding #nodejs is important to you, there is an effort underway to help define and document embedded use case… https://t.co/iFXq64hBz9
 ------------------------------------------------------------
 
 
@@ -162,6 +172,59 @@ Tweet : RT @jasnell: Node.js CommComm has taken over the Node.js booth at @Micro
 
 
 ------------------------------------------------------------
+( #Tweet N#13 ), Created:  Fri May 11 23:40:14 +0000 2018
+Tweet : RT @trott: PSA: The wiki in the @nodejs repository on @github has been disabled. An archive is at https://t.co/OQWgmiwOR9 in case anyone ne…
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#14 ), Created:  Fri May 11 18:00:31 +0000 2018
+Tweet : If embedding #nodejs is important to you, there is an effort underway to help define and document embedded use case… https://t.co/iFXq64hBz9
+------------------------------------------------------------
+
+Command   :my-tweets
+Query     :No query needed
+
+Data:
+
+
+------------------------------------------------------------
+( #Tweet N#2 ), Created:  Wed May 16 16:01:35 +0000 2018
+Tweet : ICYMI: Node.js Foundation Executive Director @mrhinkle provides updates from the Node.js Foundation team, the most… https://t.co/IbwxPpx3m3
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#1 ), Created:  Thu May 17 18:35:03 +0000 2018
+Tweet : ICYMI @menepie discusses the benefits of being a part of the #nodejs Foundation; how @Intel contributes to the Node… https://t.co/vKYfnatkbE
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#3 ), Created:  Wed May 16 13:00:05 +0000 2018
+Tweet : .@AppDeveloperMag talked with @jasnell around the progress and challenges of adding http/2 to #nodejs. Check out th… https://t.co/oMyzmXDe4w
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#4 ), Created:  Wed May 16 12:54:45 +0000 2018
+Tweet : RT @JoyeeCheung: I've been asked about this quite a few times lately, so in case you want to know how to become a @nodejs core collaborator…
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#5 ), Created:  Wed May 16 12:35:43 +0000 2018
+Tweet : RT @MylesBorins: 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+
+Happy @nodejs LTS release day
+
+$ nvm install v8.11.2
+
+Come packed with a massive update to both n-api and http…
+------------------------------------------------------------
+
+
+------------------------------------------------------------
 ( #Tweet N#8 ), Created:  Mon May 14 18:34:55 +0000 2018
 Tweet : Congrats @mhdawson1 🎉 https://t.co/pqyUMv3zU7
 ------------------------------------------------------------
@@ -172,5 +235,100 @@ Tweet : Congrats @mhdawson1 🎉 https://t.co/pqyUMv3zU7
 Tweet : #nodeappshowcase highlight for this week: @EuphoricAdv (https://t.co/4UtDGy8QF2)
 
 Euphoric Adventures is building a… https://t.co/uwT769e87G
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#10 ), Created:  Mon May 14 13:16:44 +0000 2018
+Tweet : RT @bitandbang: Just a heads up: if you write articles on @nodejs, we’d love to officially share them on the Node.js Collection:
+
+https://t…
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#11 ), Created:  Mon May 14 13:01:43 +0000 2018
+Tweet : 🎉🎉🎉 https://t.co/zOWCwqaLYN
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#12 ), Created:  Sat May 12 01:00:14 +0000 2018
+Tweet : .@Mybridge provides the top ten articles about #nodejs on Medium every month. Here's the top 10 for April: https://t.co/16GOJwMkX6
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#13 ), Created:  Fri May 11 23:40:14 +0000 2018
+Tweet : RT @trott: PSA: The wiki in the @nodejs repository on @github has been disabled. An archive is at https://t.co/OQWgmiwOR9 in case anyone ne…
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#14 ), Created:  Fri May 11 18:00:31 +0000 2018
+Tweet : If embedding #nodejs is important to you, there is an effort underway to help define and document embedded use case… https://t.co/iFXq64hBz9
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#15 ), Created:  Thu May 10 22:07:03 +0000 2018
+Tweet : .@xjamundx of @PayPalEng discusses tackling challenges with large-scale #nodejs deployments, using async/await to h… https://t.co/VkUAhahCwr
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#7 ), Created:  Tue May 15 16:02:02 +0000 2018
+Tweet : Is embedding #nodejs important to you? There is an effort underway to help define and document embedded use cases.… https://t.co/lRX9fnVx6H
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#6 ), Created:  Tue May 15 16:50:31 +0000 2018
+Tweet : RT @bitandbang: There's not going to be a @nodejs i18n meeting livestream today because of a meeting conflict on the Zoom account, but I'll…
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#18 ), Created:  Wed May 09 23:31:00 +0000 2018
+Tweet : The 10 most in-demand internet of things skills by @MyShar0na of @CIOonline (👍 slide three): https://t.co/e5lTg5y4C9 #IoT #nodejs
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#16 ), Created:  Thu May 10 19:01:10 +0000 2018
+Tweet : Node.js Foundation Executive Director @mrhinkle provides updates from the Node.js Foundation team, the most recent… https://t.co/lzTLsArj8R
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#19 ), Created:  Wed May 09 21:04:50 +0000 2018
+Tweet : RT @cjihrig: friendly reminder that all node.js security vulnerabilities should be reported to the @nodejs security WG 😀
+
+https://t.co/vgoc…
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#20 ), Created:  Wed May 09 19:11:07 +0000 2018
+Tweet : RT @jasnell: Node.js CommComm has taken over the Node.js booth at @MicrosoftBuild!
+
+@bitandbang @obensource https://t.co/Uz2tpmGrLy
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+( #Tweet N#17 ), Created:  Thu May 10 16:00:09 +0000 2018
+Tweet : .@WaleedAshraf01 covers the reasons why and how he moved from the cluster module to PM2 &amp; RabbitMQ:… https://t.co/40LxnFXQNZ
+------------------------------------------------------------
+
+Command   :spotify-this-song
+Query     :"To All Of You"
+
+Data:
+
+Artist(s):    Syd Matters
+Song:         To All of You
+Preview Link: https://p.scdn.co/mp3-preview/f35a8593cbab06fb5fc2a6afb6b24d21cf109496?cid=ad7ae01e3a8f4888965ed346ebde12b1
+Album:        Someday We Will Foresee Obstacles
 ------------------------------------------------------------
 
